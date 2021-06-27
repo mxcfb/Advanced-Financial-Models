@@ -121,7 +121,7 @@ $$
 
 **Ito isometry** (AFM P61)
 
-PROPOSITION. Let $M$ be a continuous martingale. If $\mathbb{E}[\left(\int_{0}^{t} \left(d M_{s}\right)^{2}\right)<\infty$ for all $t \geq 0$, then
+PROPOSITION. Let $M$ be a continuous martingale. If $\mathbb{E}\left(\int_{0}^{t} \left(d M_{s}\right)^{2}\right)<\infty$ for all $t \geq 0$, then
 $$
 \mathbb{E}\left(M_{t}^{2}\right)=M_{0}^{2}+\mathbb{E}\left(\int_{0}^{t} \left(d M_{s}\right)^{2}\right).
 $$
