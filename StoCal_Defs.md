@@ -129,7 +129,7 @@ In particular,
 
 let $X_{t}=\int_{0}^{t} \alpha_{s} d W_{s}$ be the Ito integral of $\alpha$ with respect to a Brownian motion $W$ and $\mathbb{E}(\int_{0}^{t} \alpha_{s}^{2} d s)<\infty$ for all $t \geq 0$, then
 $$
-\mathbb{E}\left(X_{t}^{2}\right)=X_{0}^{2}+\mathbb{E}\left(\int_{0}^{t} \alpha_{s}^{2} d s\right)=\mathbb{E}\left(\int_{0}^{t} \alpha_{s}^{2} d s\right).
+\mathbb{E}\left(X_{t}^{2}\right)=X_{0}^{2}+\mathbb{E}\left(\int_{0}^{t} \alpha_{s}^{2} d s\right)=\mathbb{E}\left(\int_{0}^{t} \alpha_{s}^{2} d s\right)=\int_{0}^{t} \mathbb{E}(\alpha_{s}^{2}) d s.
 $$
 
 
